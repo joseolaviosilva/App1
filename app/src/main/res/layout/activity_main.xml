@@ -41,7 +41,7 @@
         android:layout_weight="0.1"
         android:ems="10"
         android:inputType="text"
-        android:text="x Kg" />
+        tools:text="x Kg" />
 
     <TextView
         android:id="@+id/tvAltura"
@@ -57,7 +57,13 @@
         android:layout_weight="0.1"
         android:ems="10"
         android:inputType="text"
-        android:text="x M" />
+        tools:text="x M" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
 
     <ImageView
         android:id="@+id/imageView"
